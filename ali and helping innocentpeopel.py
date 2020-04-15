@@ -11,7 +11,7 @@ if((int(s[4])+int(s[5]))%2==1):
 
 if((int(s[7])+int(s[8]))%2==1):
     check=1
-if(s[2]==l):
+if s[2] in l:
     check=1
 if(check==0):
     print("valid")
