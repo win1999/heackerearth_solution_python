@@ -1,0 +1,10 @@
+steps=int(input())
+if(steps%5!=0):
+    y=steps%5
+    steps1=steps-y
+    z=steps1/5
+    s=z+1
+    print(int(s))
+else:
+    z=steps/5
+    print(int(z))
