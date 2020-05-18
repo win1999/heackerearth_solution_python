@@ -1,0 +1,6 @@
+x=int(input())
+arr=list(map(int,input().split()))
+arr1=sum(arr[0:x:3])
+arr2=sum(arr[1:x:3])
+arr3=sum(arr[2:x:3])
+print(arr1,arr2,arr3)
